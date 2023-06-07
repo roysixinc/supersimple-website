@@ -1,0 +1,80 @@
+h1{text-align:center;
+  font-style: normal;
+  background-color: rgb(0, 179, 172);
+  display: block;
+  min-width: 800px;
+  cursor: pointer;
+  
+}
+h1:hover{text-decoration: underline;}
+  h2{text-align:left;
+    margin-inline-start: 25px;}
+    h2:hover{text-decoration:underline;}
+
+  .history-net{font-weight: bold;
+  text-align:left;line-height: 24px;
+  width: 1000px;
+color: rgb(102, 102, 102);
+;margin-inline-start: 25px;}
+
+  .roy-mutua{color: rgb(0, 128, 128);
+  cursor:pointer;
+font-family: Arial, sans-serif ;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+display: inline;
+list-style-image: none;
+list-style-position: outside;
+list-style-type: none;
+text-align: left;
+text-decoration-line: none;
+text-decoration-style: solid;
+margin-inline-start: 25px;
+}
+.roy-mutua:hover {text-decoration:line-through;}
+
+ .works-net{font-weight: bold;text-align:left;
+  line-height: 24px;
+  width: 1000px;
+color:rgb(102, 102, 102) ;
+margin-inline-start: 25px;}
+
+.uses-net{font-weight: bold;text-align:left;
+  line-height: 24px;
+  width: 1000px;
+color:rgb(102, 102, 102) ;
+margin-inline-start: 25px;}
+ h4{display: block;
+font-size: larger;
+margin-inline-start: 25px;}
+
+u{color:rgb(0, 124, 173);
+cursor: pointer;}
+
+h3{margin-inline-start: 25px;}
+
+.images{width: 500px;
+margin-bottom: 50px;
+margin-left: 400px; }
+
+.search{margin-left:1150px ;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.the{font-weight: bold;
+text-align: center;
+font-family: Arial;
+margin-top: 0px;
+}
+.the:hover{text-decoration:underline;}
