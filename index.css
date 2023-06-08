@@ -1,3 +1,6 @@
+
+
+
 h1{text-align:center;
   font-style: normal;
   background-color: rgb(0, 179, 172);
@@ -19,7 +22,7 @@ color: rgb(102, 102, 102);
 
   .roy-mutua{color: rgb(0, 128, 128);
   cursor:pointer;
-font-family: Arial, sans-serif ;
+font-family: Arial ;
 font-size: 12px;
 font-style: normal;
 font-weight: 700;
@@ -58,23 +61,22 @@ h3{margin-inline-start: 25px;}
 margin-bottom: 50px;
 margin-left: 400px; }
 
-.search{margin-left:1150px ;}
+.search{margin-left:1150px;
+display:block;}
 
 
+.internet{display:inline-block;}
 
 
+.it{text-align:left;
+  line-height: 24px;
+  width: 1000px;
+color:rgb(102, 102, 102) ;
+margin-inline-start: 25px;}
 
+li{font-weight: bold;text-align:left;
+  line-height: 24px;
+  width: 1000px;
+color:rgb(102, 102, 102) ;
+margin-inline-start: 25px;}
 
-
-
-
-
-
-
-
-.the{font-weight: bold;
-text-align: center;
-font-family: Arial;
-margin-top: 0px;
-}
-.the:hover{text-decoration:underline;}
