@@ -4,8 +4,8 @@
 h1{text-align:center;
   font-style: normal;
   background-color: rgb(0, 179, 172);
-  display: block;
-  min-width: 800px;
+  display: center;
+  
   cursor: pointer;
   
 }
@@ -15,15 +15,17 @@ h1:hover{text-decoration: underline;}
     h2:hover{text-decoration:underline;}
 
   .history-net{font-weight: bold;
-  text-align:left;line-height: 24px;
-  width: 1000px;
+  text-align:left;line-height: 35px;
+  width: 550px;
+  
+
 color: rgb(102, 102, 102);
 ;margin-inline-start: 25px;}
 
   .roy-mutua{color: rgb(0, 128, 128);
   cursor:pointer;
 font-family: Arial ;
-font-size: 12px;
+font-size: 20px;
 font-style: normal;
 font-weight: 700;
 display: inline;
@@ -38,14 +40,14 @@ margin-inline-start: 25px;
 .roy-mutua:hover {text-decoration:line-through;}
 
  .works-net{font-weight: bold;text-align:left;
-  line-height: 24px;
-  width: 1000px;
+  line-height:35px;
+  width: 550px;
 color:rgb(102, 102, 102) ;
 margin-inline-start: 25px;}
 
 .uses-net{font-weight: bold;text-align:left;
-  line-height: 24px;
-  width: 1000px;
+  line-height: 35px;
+  width: 550px;
 color:rgb(102, 102, 102) ;
 margin-inline-start: 25px;}
  h4{display: block;
@@ -53,24 +55,38 @@ font-size: larger;
 margin-inline-start: 25px;}
 
 u{color:rgb(0, 124, 173);
-cursor: pointer;}
+cursor: pointer;
+line-height: 35px;}
+li{
+  line-height: 35px;
+}
+
+.table{
+  line-height: 24px;
+}
 
 h3{margin-inline-start: 25px;}
 
-.images{width: 500px;
+.images{width: 100%;
 margin-bottom: 50px;
-margin-left: 400px; }
+margin-left: 30px; }
 
-.search{margin-left:1150px;
+.thumbnail{
+  width: 90%;
+  
+}
+
+
+.search{
 display:block;}
 
 
-.internet{display:inline-block;
-font-family: system-ui, -apple-system,
- BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-  Ubuntu, Cantarell, 'Open Sans',
-   'Helvetica Neue', sans-serif;
-  }
+.container{
+    max-width: 980px;
+    margin: auto;
+}
+
+
 
 
 .it{text-align:left;
@@ -81,29 +97,33 @@ margin-inline-start: 25px;}
 
 li{font-weight: bold;text-align:left;
   line-height: 24px;
-  width: 1000px;
+  width: 50%;
 color:rgb(102, 102, 102) ;
 margin-inline-start: 25px;}
 
 .pc{display:inline-block;
-  font-family: system-ui, -apple-system,
-   BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans',
-     'Helvetica Neue', sans-serif;font-weight: bold;text-align:left;
+  font-family:Arial;font-weight: bold;text-align:left;
      line-height: 24px;
      width: 1000px;
    color:rgb(102, 102, 102) ;
    margin-inline-start: 25px;
    }
+
+
+   @media only screen and(max-width:2000px){
+    
+
+   }
+    
+    
+      
+    
+   
+    
+   
+   
+
+   
   
 
-@media only screen and (max-width: 412){
-  .pc{
-    visibility:visible;
-  }
-  .internet{
-    visibility: visible;
-  }
 
-}
-  
